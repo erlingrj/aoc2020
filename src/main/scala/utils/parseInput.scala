@@ -12,3 +12,8 @@ class ParseInput {
     }
 
 }
+object ParseInput{
+    def apply(): ParseInput = {
+        new ParseInput()
+    }
+}
