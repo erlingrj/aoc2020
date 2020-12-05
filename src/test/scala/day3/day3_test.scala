@@ -13,7 +13,7 @@ class Day3Test extends FlatSpec {
 
   "Day 3 Test input" should "match" in {
     val parser = new ParseInput()
-    val testInput = parser.SeqString("src/main/resources/day3/test.txt")
+    val testInput = parser.SeqString("src/main/resources/day/test.txt")
     val dut = new Day3
     assert(dut._solve1(testInput, dut.Position(0,0), dut.Slope(3,1), false) == 7)
   }
